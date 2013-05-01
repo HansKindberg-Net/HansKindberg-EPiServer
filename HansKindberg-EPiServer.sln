@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B2EFFF2A-66B8-4CE7-A074-B9CFA86EB111}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.config = .nuget\NuGet.config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeAnalysis", "CodeAnalysis", "{78D6E257-FFE1-4836-8B02-285AA9747461}"
+	ProjectSection(SolutionItems) = preProject
+		CodeAnalysis\Solution.ruleset = CodeAnalysis\Solution.ruleset
+		CodeAnalysis\Solution.Tests.ruleset = CodeAnalysis\Solution.Tests.ruleset
+		CodeAnalysis\SolutionDictionary.xml = CodeAnalysis\SolutionDictionary.xml
+		CodeAnalysis\SolutionSuppressions.cs = CodeAnalysis\SolutionSuppressions.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{99C2C53E-D635-4629-87F8-EFE07E73813B}"
+	ProjectSection(SolutionItems) = preProject
+		Properties\SolutionInfo.cs = Properties\SolutionInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F5C3C167-5743-4BF5-9997-1DFB935AFFAC}"
+	ProjectSection(SolutionItems) = preProject
+		HansKindberg.snk = HansKindberg.snk
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.EPiServer", "HansKindberg.EPiServer\HansKindberg.EPiServer.csproj", "{0E1B2483-AB81-4C9C-A074-76DF7011771F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.EPiServer.Tests", "HansKindberg.EPiServer.Tests\HansKindberg.EPiServer.Tests.csproj", "{61960A89-C064-48F7-9124-2953BAC0118A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.EPiServer.SampleApplication", "HansKindberg.EPiServer.SampleApplication\HansKindberg.EPiServer.SampleApplication.csproj", "{F44413ED-0876-4F1A-B272-ED8C604F2ACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.EPiServer.SampleApplication.Tests", "HansKindberg.EPiServer.SampleApplication.Tests\HansKindberg.EPiServer.SampleApplication.Tests.csproj", "{0627464D-42FC-4890-8194-1EF465AE1AC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.EPiServer.ShimTests", "HansKindberg.EPiServer.ShimTests\HansKindberg.EPiServer.ShimTests.csproj", "{7FD256C6-5FF7-45C1-9F49-DC42B2970B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.EPiServer.IoC.StructureMap", "HansKindberg.EPiServer.IoC.StructureMap\HansKindberg.EPiServer.IoC.StructureMap.csproj", "{92CF6087-3EE1-43AA-846F-EB6DE9DF600F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.EPiServer.IoC.StructureMap.Tests", "HansKindberg.EPiServer.IoC.StructureMap.Tests\HansKindberg.EPiServer.IoC.StructureMap.Tests.csproj", "{14BCF459-5580-447B-B4F1-4E41EFC9DBAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.EPiServer.Fakes.Tests", "HansKindberg.EPiServer.Fakes.Tests\HansKindberg.EPiServer.Fakes.Tests.csproj", "{D09CCE33-8ED2-4AD0-B7E2-18A02AC82D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.EPiServer.Fakes", "HansKindberg.EPiServer.Fakes\HansKindberg.EPiServer.Fakes.csproj", "{0795B707-F51B-47AB-B1B2-F50A1968F08C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E1B2483-AB81-4C9C-A074-76DF7011771F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1B2483-AB81-4C9C-A074-76DF7011771F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1B2483-AB81-4C9C-A074-76DF7011771F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1B2483-AB81-4C9C-A074-76DF7011771F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61960A89-C064-48F7-9124-2953BAC0118A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61960A89-C064-48F7-9124-2953BAC0118A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61960A89-C064-48F7-9124-2953BAC0118A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61960A89-C064-48F7-9124-2953BAC0118A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44413ED-0876-4F1A-B272-ED8C604F2ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44413ED-0876-4F1A-B272-ED8C604F2ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44413ED-0876-4F1A-B272-ED8C604F2ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44413ED-0876-4F1A-B272-ED8C604F2ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0627464D-42FC-4890-8194-1EF465AE1AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0627464D-42FC-4890-8194-1EF465AE1AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0627464D-42FC-4890-8194-1EF465AE1AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0627464D-42FC-4890-8194-1EF465AE1AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD256C6-5FF7-45C1-9F49-DC42B2970B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD256C6-5FF7-45C1-9F49-DC42B2970B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD256C6-5FF7-45C1-9F49-DC42B2970B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD256C6-5FF7-45C1-9F49-DC42B2970B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CF6087-3EE1-43AA-846F-EB6DE9DF600F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CF6087-3EE1-43AA-846F-EB6DE9DF600F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CF6087-3EE1-43AA-846F-EB6DE9DF600F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CF6087-3EE1-43AA-846F-EB6DE9DF600F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BCF459-5580-447B-B4F1-4E41EFC9DBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BCF459-5580-447B-B4F1-4E41EFC9DBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BCF459-5580-447B-B4F1-4E41EFC9DBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BCF459-5580-447B-B4F1-4E41EFC9DBAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09CCE33-8ED2-4AD0-B7E2-18A02AC82D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09CCE33-8ED2-4AD0-B7E2-18A02AC82D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09CCE33-8ED2-4AD0-B7E2-18A02AC82D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09CCE33-8ED2-4AD0-B7E2-18A02AC82D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0795B707-F51B-47AB-B1B2-F50A1968F08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0795B707-F51B-47AB-B1B2-F50A1968F08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0795B707-F51B-47AB-B1B2-F50A1968F08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0795B707-F51B-47AB-B1B2-F50A1968F08C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
